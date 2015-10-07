@@ -19,8 +19,18 @@ var CookieStand = function(place, minCustHour, maxCustHour, avgCookieCust){
 		for (var i = 0; i < 0; i ++);
 	};
 
-this.cookiesByHourList.push(this.totalCookiesHour());
-dailyCookies = dailyCookies + this.cookiesByHourList[i];
+// this.cookiesByHourList.push(this.totalCookiesHour());
+// dailyCookies = dailyCookies + this.cookiesByHourList[i];
+
+/*this.makeUL = function(id){
+	console.log("hello is it me you r looking for?");
+	for(var i=0; i<this.opHours.length; i ++){
+		var locationList=document.getElementById(id);
+		var item = document.createElement ('li');
+		item.appendChild(document.createTextNode
+			(this.ophours[i] +': ' + this.totalCookiesHour() + 'Cookies'));
+	}
+}*/
 
 console.log("24-hour time:"(i + 10));
 console.log ("running totals of cookies:" + dailyCookies);
@@ -30,11 +40,11 @@ console.log("++++++++++++++++++++++++++++++++");
 
 
 
-var pikePlace = new CookieStand('Pike Place Market', 17, 88, 5.2);
-var seaTac = new CookieStand('SeaTac', 6, 44, 1.2);
-var southCenter = new CookieStand('Southcenter Mall', 11, 38, 1.9);
-var bellevueSquare = new CookieStand('Bellevue Square', 20, 48, 3.3);
-var Alki = new CookieStand('Alki Beach', 3, 24, 2.6);
+var pikePlace = new CookieStand('Pike Place Market', 17, 88, 5.2, 'pike');
+var seaTac = new CookieStand('SeaTac', 6, 44, 1.2, 'seatac');
+var southCenter = new CookieStand('Southcenter Mall', 11, 38, 1.9, 'sthcntr');
+var bellevueSquare = new CookieStand('Bellevue Square', 20, 48, 3.3, 'bellsq');
+var Alki = new CookieStand('Alki Beach', 3, 24, 2.6, 'alki');
 
 return dailyCookies;
 };
