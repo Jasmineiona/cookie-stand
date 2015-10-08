@@ -1,21 +1,50 @@
 body {
-    background-color: #000000;
+    background-color: rgb(176,196,222);
     background-image: url("img/salmon.png");
-    font-family: Arial;
-		font-size: 10px;
+
+    font-family: Georgia; '"Times New Roman"', serif;
+    text-align: center;
+}
+
+header {
+	background-color: lightblue;
+	padding: 15px;
+	text-align: center;
+}
+
+h2 {
+	color: lemonchiffon;
+	font-size: 20px;
+	margin-left: 20px;
+
 }
 
 h1 {
     color: salmon;
     margin-left: 20px;
+    font-size: 50px;
 }
 
 
-h2 {
-	color: blue;
-	font-size: 12px;
+div {
+	width: 50%;	
+	background-color: salmon;
+	background-position: center;
+	padding: 10px;
 }
 
 p {
-	background-color: lightblue;
+	height: 60%;
+	width: 90%;
+	background-color: wheat;
+	font-size: 15px;
+	border: 2px solid white;
+	padding: 10px;
+	margin-left: 15px;
+	margin-top: 15px;
+	}
+
+footer {
+	background-color: wheat;
+	padding: 5px;
 }
