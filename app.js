@@ -19,10 +19,10 @@ var CookieStand = function(place, minCustHour, maxCustHour, avgCookieCust){
 		for (var i = 0; i < 0; i ++);
 	};
 
-// this.cookiesByHourList.push(this.totalCookiesHour());
-// dailyCookies = dailyCookies + this.cookiesByHourList[i];
+ this.cookiesByHourList.push(this.totalCookiesHour());
+dailyCookies = dailyCookies + this.cookiesByHourList[i];
 
-/*this.makeUL = function(id){
+this.makeUL = function(id){
 	console.log("hello is it me you r looking for?");
 	for(var i=0; i<this.opHours.length; i ++){
 		var locationList=document.getElementById(id);
@@ -30,7 +30,7 @@ var CookieStand = function(place, minCustHour, maxCustHour, avgCookieCust){
 		item.appendChild(document.createTextNode
 			(this.ophours[i] +': ' + this.totalCookiesHour() + 'Cookies'));
 	}
-}*/
+}
 
 console.log("24-hour time:"(i + 10));
 console.log ("running totals of cookies:" + dailyCookies);
