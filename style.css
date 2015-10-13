@@ -88,6 +88,19 @@ tr {
 	margin-left: 50px;
 }
 
+.location {
+	text-align: left;
+	width: 150px;
+}
+
+.info {
+	text-align: left;
+	width: 150px;
+}
+
+
+}
+
 footer {
 	background-color: ghostwhite;
 	width: 400px;
